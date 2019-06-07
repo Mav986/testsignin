@@ -17,8 +17,9 @@ function generateToken(){
 
 function compareToken(received){
     console.log('received: ' + received + "\ngenerated: " + token);
-    console.log(token === received);
-    return token === received;
+    let match = token === received;
+    console.log('match: ' + match);
+    return match;
 }
 
 function loadUser(email){

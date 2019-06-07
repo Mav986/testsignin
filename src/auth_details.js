@@ -1,4 +1,4 @@
 module.exports = {
     user: "artificialisbot@gmail.com",
-    key: "***REMOVED***"
+    key: "PRIVATE KEY HERE"
 };
